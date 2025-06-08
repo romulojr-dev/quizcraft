@@ -1,0 +1,81 @@
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Python/Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+build/
+dist/
+media/
+db.sqlite3
+*.log
+
+# Next.js/Node.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/.env
+frontend/*.log
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage
+frontend/.DS_Store
+frontend/*.pem
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.env*.local
+frontend/tsconfig.tsbuildinfo
+frontend/next-env.d.ts
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Large file types
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.dmg
+*.gz
+*.tgz
+
+# Dependencies lock files (optional, but recommended to keep)
+# frontend/package-lock.json
+# frontend/yarn.lock
+
+# Cache directories
+.cache/
+.npm/
+.yarn/
+
+# Debug logs
+*.log
+debug.log
+npm-debug.log*
+
+# Large media files
+*.mp4
+*.mov
+*.wmv
+*.avi
+*.flv
+*.mkv
+*.webm
+
+# Large image files (optional, depending on your needs)
+*.psd
+*.ai
+*.eps
+*.tiff
